@@ -1,0 +1,51 @@
+section {
+    display: block;
+    
+}
+a{
+    display: block;
+    margin-bottom: 60px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border-radius: 30;
+}
+
+main{
+    display: inline-block;
+    width: 50%;
+}
+.logo {
+   position: absolute;
+    top: 660px;
+    right: 80px;
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    
+}
+/* para que el texto se superponga a la foto*/
+.texto-encima{
+    position: absolute;
+    font-size: 50px;
+}
+.header {
+    margin-top: 0px;
+    width: 100%;
+
+}
+
+.top{
+    text-align: center;
+    margin-top: 0px;
+    background: black;
+    color: white;
+}
+#mail{
+    display: inline;
+}
+section{
+    float: left;
+}
+article{
+    float: left;
+}
