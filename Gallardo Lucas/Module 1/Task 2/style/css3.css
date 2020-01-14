@@ -16,7 +16,7 @@ section {
     position: absolute;
     display: block;
     left: 300px;
-    top: 752px;
+    top: 748px;
     border-radius: 5px;
     
 }
@@ -56,11 +56,10 @@ main{
 .top{
     
     text-align: left;
-    
-    margin-top: 0px;
+    margin-top: -4px;
     background: white;
     color: black;
-    border: 4px solid black;
+    border: 4px solid black;    
 }
 #mail{
     display: inline;
@@ -70,4 +69,13 @@ section{
 }
 article{
     float: left;
+}
+#img2{
+    visibility: hidden;
+    position: absolute;
+    
+}
+#img1{
+    
+    left: 0px;
 }
