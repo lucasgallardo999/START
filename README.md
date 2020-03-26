@@ -1,4 +1,2 @@
-# accenture
-esto es una mierda
-.com
-aguante mi pendrive.
+# Programa Start
+Curso de desarrollo Front-End
