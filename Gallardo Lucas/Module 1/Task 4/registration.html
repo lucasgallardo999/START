@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel=stylesheet href="style/css3.css" type="text/css" media="screen">
+        <title>About NYSL</title>
+    </head>
+    <body>
+   <header>
+                    
+                    <h1 class="tittle">Northside Youth Soccer League</h1>
+                   
+                       
+                        
+                        <img alt="logo pelota" class="logo" src="nysl_logo.png">
+       
+           <h1 class="top">Registration</h1>
+        </header>
+                <nav>
+                    <a class="button" href="index.html" >Home</a>
+                    <a class="button" href="about.html">About NYSL</a>
+                    <a class="button" href="contact.html">Contact</a>
+                    <a class="button" href="rules.html">Rules &amp; Policies</a>
+                    <a class="button" href="info.html">Game Info</a>
+                    <a class="button-select" href="registration.html">Registration Form</a>
+                    <a class="button" href="show-data.html">Show data</a>
+                </nav>
+        <main>
+            
+            <form action="show-data.html" method="get">
+                <fieldset>
+                    <legend>Registration</legend>
+                <p>Player’s First Name:  <input type="text" name="First-Name" size="20">
+                Last Name: <input type="text" name="Last-Name" size="20">
+                </p>
+                <p>Street Address: <input type="text" name="Address" size="60"></p>
+                <p>City: <input type="text" name="City" size="30">
+                Zip Code <input type="number" name="Zip">
+                </p>
+                <p>
+                Birth Date (mm/dd/yyyy): <input type="date" name="Birth-Date">
+                Gender:
+                <input type="radio" name="Gender" value="male"> Male
+                <input type="radio" name="Gender" value="female"> Female
+                </p>
+                <p>
+                Grade:
+                <input type="radio" name="Grade" value="Pre-School"> Pre-School
+                <input type="radio" name="grade" value="1st">
+                1st
+                <input type="radio" name="grade" value="2nd"> 2nd 
+                <input type="radio" name="grade" value="3rd"> 3rd
+                <input type="radio" name="grade" value="4th"> 4th
+                <input type="radio" name="grade" value="5th"> 5th
+                </p>
+                <p>
+                Parent/Guardian: 
+                <input type="text" name="Parent-Guardian" size="60">
+                </p>
+                <p>Contact Phone:
+                <input type="tel" name="Contact-Phone">
+                Contact Email:
+                <input type="email" name="Contact-Email">
+                </p>
+                <h3>Which elementary schools do you live near?</h3>
+                <table class="n">
+                <tr>
+                <th>First Closest School:</th>
+                <th></th>
+                <th>Second Closest School:</th>
+                <th></th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" value="AJ Katzenmaier" name="First-Closest-School">AJ Katzenmaier </td>
+                    <td><input type="checkbox" value="Marjorie P Hart" name="First-Closest-School">Marjorie P Hart</td>
+                    <td><input type="checkbox" value="AJ Katzenmaier" name="Second-Closest-School">AJ Katzenmaier</td>
+                    <td><input type="checkbox" value="Marjorie P Hart" name="Second-Closest-School">Marjorie P Hart</td>    
+                </tr>
+                <tr>
+                    <td><input type="checkbox" value="Greenbay" name="First-Closest-School">Greenbay</td>
+                    <td><input type="checkbox" value="North Elementary" name="First-Closest-School">North Elementary</td>
+                    <td><input type="checkbox" value="Greenbay" name="Second-Closest-School">Greenbay</td>
+                    <td><input type="checkbox" value="North Elementary" name="Second-Closest-School">North Elementary</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" value="Howard A Yeager" name="First-Closest-School">Howard A Yeager</td>
+                    <td><input type="checkbox" value="South Elementary" name="First-Closest-School">South Elementary</td>
+                    <td><input type="checkbox" value="Howard A Yeager" name="Second-Closest-School">Howard A Yeager</td>
+                    <td><input type="checkbox" value="South Elementary" name="Second-Closest-School">South Elementary</td>
+                </tr>
+                </table>
+                <p><strong>What position(s) do you normally play?</strong> (check all that apply)</p>
+                <table>
+                <tr>
+                    <td><input type="checkbox" name="Normally-Position" value="Forward">Forward</td>
+                    <td><input type="checkbox" name="Normally-Position" value="Midfield">Midfield</td>   
+                    </tr>
+                <tr>
+                    <td><input type="checkbox" name="Normally-Position" value="Defense">Defense</td>
+                    <td><input type="checkbox" name="Normally-Position" value="Goalkeeper">Goalkeeper</td>
+                    </tr>
+                </table>
+                <p><strong>What position(s) do you want to play?</strong> (check all that apply)</p>
+                <table>
+                <tr>
+                    <td><input type="checkbox" name="Want-Position" value="Forward">Forward</td>
+                    <td><input type="checkbox" name="Want-Position" value="Midfield">Midfield</td>   
+                    </tr>
+                <tr>
+                    <td><input type="checkbox" name="Want-Position" value="Defense">Defense</td>
+                    <td><input type="checkbox" name="Want-Position" value="Goalkeeper">Goalkeeper</td>
+                    </tr>
+                </table>
+                <h3><input type="checkbox" name="Already-Have-a-Uniform" value="Yes">Already Have a Uniform</h3>
+                
+                <table>
+                <tr>
+                    <th>Jersey Size:</th>
+                    <th></th>
+                    <th>Shorts Size:</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="Jersey-Size" value="Youth Small">Youth Small</td>
+                    <td><input type="checkbox" name="Jersey-Size" value="Medium">Medium</td>
+                    <td><input type="checkbox" name="Shorts-Size" value="Youth Small">Youth Small</td>
+                    <td><input type="checkbox" name="Shorts-Size" value="Medium">Medium</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="Jersey-Size" value="Youth Medium">Youth Medium</td>
+                    <td><input type="checkbox" name="Jersey-Size" value="Large">Large</td>
+                    <td><input type="checkbox" name="Shorts-Size" value="Youth Medium">Youth Medium</td>
+                    <td><input type="checkbox" name="Shorts-Size" value="Large">Large</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="Jersey-Size" value="Youth Large">Youth Large</td>
+                    <td><input type="checkbox" name="Jersey-Size" value="Extra-Large">Extra-Large</td>
+                    <td><input type="checkbox" name="Shorts-Size" value="Youth Large">Youth Large</td>
+                    <td><input type="checkbox" name="Shorts-Size" value="Extra-Large">Extra-Large</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="Jersey-Size" value="Small">Small</td>
+                    <td></td>
+                    <td><input type="checkbox" name="Shorts-Size" value="Small">Small</td>
+                    <td></td>
+                </tr>
+                </table>
+                <h2>Permission to Play</h2>
+                <ol>
+                    <li><p> the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                    Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                    accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                    employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                    on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                    sponsored activities, which transportation.</p></li>
+                
+                </ol>
+                <p>By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
+                cancellation policy and agree to its terms. </p>
+                
+                <p>Parent/Guardian Signature: <input type="text" name="Parent-Asignature">
+                Date:
+                <input type="date" name="fecha">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </p> 
+                </fieldset>
+            </form>
+
+
+            
+        </main>        
+    </body>
+</html>
